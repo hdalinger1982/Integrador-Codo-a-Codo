@@ -12,44 +12,48 @@
 </head>
 
 <body>
+
     <!-- menu -->
-    <div class="row">
-        <div class="col-4">
+    <nav class="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="Imagen/codoacodo.png" alt="c" width="100px">
-                <span class="fs-3" >Conf BsAs</span>
+                <span class="fs-5" >Conf BsAs</span>
               </a>
-        </div>
-        <div class="col-8">
-            <nav class="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">La Conferencia</a>
+             <div>
+                <a class="navbar-toggler" href="#">La Conferencia</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Los Oradores</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">El lugar y la fecha</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Comviertete en orador</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">Comprar tickets</a>
-                            </li>
-                        </ul>
-                        
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Los Oradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">El lugar y la fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Conviertete en orador</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Comprar tickets</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
+            </div>  
+            
+                
+            </div>
         </div>
-    </div>
+    </nav>
+       
+        
+            
+       
+    
 
      <!--carrousel-->
      <div id="carouselExampleCaptions" class="carousel slide">
@@ -61,10 +65,10 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="Imagen/hawaii.jpg" class="d-block w-100" alt="h1">
-            <div class="carousel-caption d-none d-md-block" >
+            <div class="carousel-caption d-none d-md-block text-end mb-5">
               <h5 class="fs-3">Conf BsAs</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo ratione dolore, deserunt explicabo tempore quod temporibus vero illum amet! Facere dolorum quis consequatur at distinctio nihil labore hic officia.</p>
-              <a href="#" class="btn btn-light">Light</button>>Quiero ser Orador</a>
+              <a href="#" class="btn btn-outline-light"></button>Quiero ser Orador</a>
               <a href="#" class="btn btn-success">Comprar Tickets</a>
             
             
@@ -96,11 +100,19 @@
         </button>
       </div>
 
+    <div>
+        <p class="text-center">CONOCE A LOS</p>
+        <h3 class="text-center">ORADORES</h3>
+
+    </div>
+
 
     <div class="d-md-flex justify-content-center">
+        
+        
         <!-- orador -->
         <div class="card mx-1" style="width: 25%;">
-            <img src="Imagen/steve.jpg" class="card-img-top" alt="st">
+            <img src="Imagen/steve.jpg" class="card-img-top" alt="Steve Jobs">
             <div class="card-body">
                 <div class="d-flex mb-3">
                     <a href="#" class="btn btn-warning btn-sm mx-1">JavaScript</a>
@@ -117,13 +129,13 @@
        
         <!-- orador -->
         <div class="card mx-1" style="width: 25%;">
-            <img src="Imagen/bill.jpg" class="card-img-top" alt="st">
+            <img src="Imagen/bill.jpg" class="card-img-top" alt="Bill Gates">
             <div class="card-body">
                 <div class="d-flex mb-3">
                     <a href="#" class="btn btn-warning btn-sm mx-1">JavaScript</a>
                     <a href="#" class="btn btn-info text-light btn-sm mx-1">React</a>
                 </div>
-                <h5 class="card-title mb-2">Steve Jobs</h5>
+                <h5 class="card-title mb-2">Bill Gates</h5>
                 <p class="card-text textoChico text-sencodary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Esse reiciendis ex alias nam
                     totam debitis delectus! Sit a, animi consequatur porro cumque rerum optio, explicabo laudantium
@@ -136,16 +148,30 @@
             <img src="Imagen/ada.jpeg" class="card-img-top" alt="st">
             <div class="card-body">
                 <div class="d-flex mb-3">
-                    <a href="#" class="btn btn-warning btn-sm mx-1">JavaScript</a>
-                    <a href="#" class="btn btn-info text-light btn-sm mx-1">React</a>
+                    <a href="#" class="btn btn-warning btn-sm mx-1">Negocios</a>
+                    <a href="#" class="btn btn-info text-light btn-sm mx-1">Startups</a>
                 </div>
-                <h5 class="card-title mb-2">Steve Jobs</h5>
+                <h5 class="card-title mb-2">Ada Lovelace</h5>
                 <p class="card-text textoChico text-sencodary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Esse reiciendis ex alias nam
                     totam debitis delectus! Sit a, animi consequatur porro cumque rerum optio, explicabo laudantium
                     cupiditate, ea eum perspiciatis.</p>
             </div>
         </div>
+    </div>
+    <!--bsasoctubre-->
+    <div>
+        <div class="row">
+            <div class="col-6">
+                <img src="Imagen/honolulu.jpg" class="img-thumbnail" alt="#">
+            </div>
+            <div class="col-6 bg-dark">
+                <h3>Bs As - Octubre</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque harum voluptates error optio natus assumenda corporis ipsam repudiandae, reprehenderit alias enim animi blanditiis, delectus et voluptatibus iure quasi, quaerat mollitia?</p>
+                <a href="#" class="btn btn-outline-light"></button>Conocé mas</a>
+
+            </div>
+        
     </div>
 
 
